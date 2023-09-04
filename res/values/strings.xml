@@ -217,6 +217,8 @@
     <string name="additional_buttons_title">Additional buttons</string>
     <string name="click_partial_screenshot_title">Click to partial screenshot</string>
     <string name="click_partial_screenshot_summary">Short click Volume Down and Power to take partial screenshot</string>
+    <string name="click_as_touch_title">click switch to touch</string>
+    <string name="click_as_touch_summary">open this switch, some game navigation key maybe ok</string>
 
     <!-- Key backlight -->
     <string name="button_backlight_title">Backlight</string>

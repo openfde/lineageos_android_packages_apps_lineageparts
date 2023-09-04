@@ -341,6 +341,11 @@
             android:title="@string/click_partial_screenshot_title"
             android:summary="@string/click_partial_screenshot_summary"
             android:defaultValue="false" />
+        <lineageos.preference.LineageSystemSettingSwitchPreference
+            android:key="click_as_touch"
+            android:title="@string/click_as_touch_title"
+            android:summary="@string/click_as_touch_summary"
+            android:defaultValue="false" />
 
     </PreferenceCategory>
 

@@ -105,6 +105,8 @@ public class ButtonSettings extends SettingsPreferenceFragment
             "torch_long_press_power_timeout";
     private static final String KEY_CLICK_PARTIAL_SCREENSHOT =
             "click_partial_screenshot";
+	private static final String KEY_CLICK_AS_TOUCH =
+            "click_as_touch";
     private static final String KEY_SWAP_CAPACITIVE_KEYS = "swap_capacitive_keys";
 
     private static final String CATEGORY_POWER = "power_key";
@@ -966,6 +968,7 @@ public class ButtonSettings extends SettingsPreferenceFragment
                     result.add(KEY_EDGE_LONG_SWIPE);
                 }
             }
+			result.add(KEY_CLICK_AS_TOUCH);
             return result;
         }
     };
